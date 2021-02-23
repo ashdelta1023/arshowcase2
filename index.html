@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>AR Showcase</title>
+		<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+      <!-- 💁 OPTIONAL: Intersection Observer polyfill for better performance in Safari and IE11 -->
+      <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+      <!-- 💁 OPTIONAL: Resize Observer polyfill improves resize behavior in non-Chrome browsers -->
+      <script src="https://unpkg.com/resize-observer-polyfill@1.5.0/dist/ResizeObserver.js"></script>
+      <!-- 💁 OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+     
+
+	</head>
+	<body class="landing is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+					</header>          
+        
+        <br>
+        <br>
+        <br>
+        
+                    <center> <h2>Interactive AR Showcase</h2>
+                      <img src="https://cdn.glitch.com/a30d4135-a844-4a1f-87e7-727af5da9afa%2Flogo_cutout-removebg-preview.png?v=1614034371721" alt="logo" width="400" height="300"></center> 
+				<!-- Banner -->
+        <center><video width="320" height="240" controls autoplay>
+  <source src="https://cdn.glitch.com/a30d4135-a844-4a1f-87e7-727af5da9afa%2Freceived_232335691859835.mp4?v=1614105356011" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+          <br/>
+          <br/>
+							<p>Check out some of our samples below!
+    <br />
+							On your mobile device, click the "view in AR" button <br />
+							and slowly point the device camera around your environment to place them!
+</p>
+							<ul class="actions special">
+								<li><a href="https://www.livvinyl.com/" class="button primary">Visit our Website</a></li>
+							</ul>
+          
+						
+
+</center>
+        
+          <center><section>
+            
+            
+            
+            <div class="slider">
+  
+  <a href="#slide-1">1</a>
+  <a href="#slide-2">2</a>
+  <a href="#slide-3">3</a>
+  <a href="#slide-4">4</a>
+  <a href="#slide-5">5</a>
+
+  <div class="slides">
+    <div id="slide-1">
+      <model-viewer
+        loading="eager"
+        src="https://cdn.glitch.com/a30d4135-a844-4a1f-87e7-727af5da9afa%2FPizza%20Box%20Sprouted%20(2).glb?v=1614113486453"
+        ios-src="https://cdn.glitch.com/a30d4135-a844-4a1f-87e7-727af5da9afa%2Febf1dff4-4cb4-440a-b77a-f0edc4986d01%20(2).usdz?v=1614120364414"
+        alt="AR Product Viewer Demo"
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+        ar
+      >
+      </model-viewer>
+    </div>
+    <div id="slide-2">
+    <model-viewer
+        loading="lazy"
+        src="https://cdn.glitch.com/a30d4135-a844-4a1f-87e7-727af5da9afa%2Fhome%20vibes.glb?v=1614120674250"
+        ios-src="https://cdn.glitch.com/a30d4135-a844-4a1f-87e7-727af5da9afa%2Fe9a75df3-e065-4f9a-93b2-5032f4841dd3.usdz?v=1614120756192"
+        alt="AR Product Viewer Demo"
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+        ar
+      >
+      </model-viewer>
+    </div>
+    <div id="slide-3">
+       <model-viewer
+        loading="lazy"
+        src="https://cdn.glitch.com/a30d4135-a844-4a1f-87e7-727af5da9afa%2FProject%20Name.glb?v=1614115258839"
+        ios-src="https://cdn.glitch.com/a30d4135-a844-4a1f-87e7-727af5da9afa%2F39c51123-bf40-4619-85e5-e0f9a16ce1e7%20(1).usdz?v=1614120896484"
+        alt="AR Product Viewer Demo"
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+        ar
+      >
+      </model-viewer>
+    </div>
+    <div id="slide-4">
+      <model-viewer
+        loading="lazy"
+        src="https://cdn.glitch.com/a30d4135-a844-4a1f-87e7-727af5da9afa%2FProject%20Name%20(1).glb?v=1614122001672"
+        ios-src="https://cdn.glitch.com/a30d4135-a844-4a1f-87e7-727af5da9afa%2F774d1185-c6b5-49db-a9b5-5a1897dbcf60.usdz?v=1614122027556"
+        alt="AR Product Viewer Demo"
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+        ar
+      >
+      </model-viewer>
+    </div>
+    <div id="slide-5">
+      <model-viewer
+        loading="lazy"
+        src="https://cdn.glitch.com/a30d4135-a844-4a1f-87e7-727af5da9afa%2FSkeleton.glb?v=1614121537896"
+        ios-src="https://cdn.glitch.com/a30d4135-a844-4a1f-87e7-727af5da9afa%2F67092b6a-b8c2-44a8-a828-a094f6d11079.usdz?v=1614121795540"
+        alt="AR Product Viewer Demo"
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+        ar
+      >
+      </model-viewer>
+    </div>
+  </div>
+</div>
+            
+            
+            
+            <div id="*Your Product Here*">
+      <span>
+        <style>
+          <h1>*Product Virtualization*</h1>
+        </style>
+      </span>
+      <!-- All you need to put beautiful, interactive 3D content on your site: -->
+      
+      <section class="attribution"></section>
+    </div></section>
+							</center>
+            
+			
+				<!-- Footer -->
+					<footer id="footer">
+
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+ <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>    
+	</body>
+</html>
